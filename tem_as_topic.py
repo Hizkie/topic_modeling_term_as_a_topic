@@ -143,3 +143,6 @@ for z in range(100000):
         correct = correct + 1
     else:
         incorrect = incorrect + 1
+
+percent = (correct/100000)*100
+
